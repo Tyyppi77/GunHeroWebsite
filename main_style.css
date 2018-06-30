@@ -1,0 +1,573 @@
+body {
+    font-family: 'Play', sans-serif;
+    font-size: 200%;
+    
+    color: white;
+    
+    text-shadow: 0px 1px black;
+    
+    margin: 0px;
+    padding: 0px;
+    
+    background: url("Resource/PrisonParallax.png") bottom left no-repeat fixed #07aaff;
+    background-color: #e14b00;
+    background-repeat: repeat-x;
+}
+
+h1 {
+    font-size: 0.5em;
+    
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 0.75em;
+    
+    text-shadow: 0px 2px black;
+}
+
+h3 {
+    font-size: 0.7em;
+    text-shadow: 0px 1px black;
+    
+    font-weight: 100;
+}
+
+p {
+    font-size: 0.6em;
+}
+
+ul {
+    font-size: 0.6em;
+}
+
+a {
+    color: #e14b00;
+    text-decoration: none;
+}
+
+.contact {
+    margin-bottom: 1px;
+}
+
+.topArea {
+    float: right;
+    display: block;
+    
+    margin-bottom: 2%;
+}
+
+.factsheet {
+    float: left;
+    display: inline-block;
+    
+    margin-right: 4%;
+}
+
+.factsheet h2 {
+    display: inline;
+}
+
+.factItem {
+    margin-top: 1%;
+    display: block;
+}
+
+.factItem h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.factItem p {
+    padding: 0px;
+    margin: 0px;
+    
+    font-style: italic;
+}
+
+.factItem:first-of-type {
+    margin-top: 10px;
+}
+
+.description {
+    display: inline;
+}
+
+.description p {
+    margin-top: 10px;
+}
+
+.description h2 {
+    display: inline;
+}
+
+.separator {
+    display: inline-block;
+    margin: 0px auto;
+    width: 100%;
+    
+    height: 0px;
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(76, 76, 76, 0.4);
+}
+
+.block {
+    display: block !important;
+    margin: 0px auto;
+    width: 30%;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.large {
+    font-size: 1.5em;
+    text-decoration: none;
+    
+    display: inline;
+}
+
+.baseSize {
+    margin: 0px auto;
+    margin-top: 2%;
+    
+    max-width: 962px;
+}
+
+.baseBackground {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    background-color: rgba(16, 16, 16, 0.4);
+    
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(76, 76, 76, 0.4);
+}
+
+.container:last-child {
+    margin-bottom: 2%;
+}
+
+.navigationWrapper {
+    width: 100%;
+    
+    background-color: rgba(16, 16, 16, 0.4);
+    
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-color: rgba(76, 76, 76, 0.4);
+}
+
+.navBar {
+    margin: 0px auto;
+    padding: 0px;
+    display: block;
+    
+    text-align: right;
+    
+    max-width: 962px;
+    
+    list-style-type: none;
+    overflow: hidden;
+    
+    font-size: 1em;
+    
+    text-shadow: 0px 2px black;
+}
+
+.navBar .icon
+{
+    display: none;
+}
+
+.navBar li {
+    text-align: center;
+    
+    display: inline-block;
+}
+
+.navBar .active {
+    background-color: rgba(76, 76, 76, 0.4) !important;
+}
+
+.navBar li a:hover {
+    background-color: rgba(76, 76, 76, 0.4);
+    
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.navBar li a {
+    display: inline-block;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    text-decoration: none;
+    
+    color: white;
+}
+
+.socialInnerContainer {
+    margin: 0px auto;
+    
+    width: 60%;
+}
+
+.indieDBContainer {
+    margin-bottom: 10px;
+    
+    display: inline-block;
+}
+
+.twitterContainer {    
+    margin-bottom: 10px;
+    
+    display: inline-block;
+}
+
+.mainContainer {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.headerContainer {
+    position: relative;
+    
+    font-size: 0.7em;
+    
+    margin-top: 5%;
+    
+    overflow: hidden;
+}
+
+.headerLogo {
+    display: inline-block;
+    
+    width: 425px;
+    height: 81px;
+    max-width: 100%;
+    
+    background: url("Resource/Logo1.png") center no-repeat;
+    background-size: contain;
+    
+    text-indent: -9999px;
+}
+
+#pressLogo {
+    float: right;
+    display: inline-block;
+}
+
+.headerDescription {
+    font-size: 1.1em;
+    
+    width: 60%;
+}
+
+.headerKeyArt {
+    position: absolute;
+    
+    right: 2%;
+    bottom: 0;
+    
+    max-height: 100%;
+    max-width: 240px;
+}
+
+.mediaContainer {
+}
+
+.greenlitImage {
+    display: block;
+    
+    margin: 0px auto;
+    
+    max-width: 100%;
+}
+
+.trailerContainer {
+    position: relative;
+    
+    margin: 0px auto;
+    margin-top: 2%;
+    padding-bottom:56%;
+	padding-top: 30px;
+    
+    max-width: 100%;
+    
+    overflow: hidden;
+    
+    -webkit-box-shadow: 0px 0px 32px 4px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 32px 4px rgba(0,0,0,1);
+    box-shadow: 0px 0px 32px 4px rgba(0,0,0,1);
+}
+
+.trailerVideo {
+    position:absolute;
+	top:0;
+	left:0;
+    
+    margin: 0px auto;
+
+    width: 100%;
+    height: 100%;
+    
+    border: 0px;
+}
+
+.screenshotContainer {
+    margin: 0px auto;
+    margin-top: 2%;
+    
+    text-align:center;
+}
+
+.screenshotLink {
+    text-decoration: none;
+}
+
+.screenshotImage {
+    width: 48%;
+    
+    -webkit-box-shadow: 0px 0px 32px 4px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 32px 4px rgba(0,0,0,1);
+    box-shadow: 0px 0px 32px 4px rgba(0,0,0,1);
+}
+
+.screenshotImage:hover {
+    -webkit-box-shadow: 0px 0px 32px 8px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 32px 8px rgba(0,0,0,1);
+    box-shadow: 0px 0px 32px 8px rgba(0,0,0,1);
+}
+
+.button {
+    font-size: 1.0em;
+    
+    color: white;
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0px auto;
+    margin-top: 4%;
+    
+    width: 50%;
+    
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(76, 76, 76, 0.4);
+    
+    background-color: rgba(16, 16, 16, 0.4);
+    
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0px 2px black;
+    
+    -webkit-box-shadow: 0px 0px 32px 4px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 32px 4px rgba(0,0,0,1);
+    box-shadow: 0px 0px 32px 4px rgba(0,0,0,1);
+    
+    display: block;
+}
+
+.button:visited {
+    color: white;
+}
+
+.button:hover {
+    text-shadow: 0px 2px #1c2a00;
+    
+    color: #72b400;
+    
+    -webkit-box-shadow: 0px 0px 32px 8px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 32px 8px rgba(0,0,0,1);
+    box-shadow: 0px 0px 32px 8px rgba(0,0,0,1);
+    
+    background-color: rgba(16, 32, 16, 0.4);
+}
+
+#blogButton {
+    margin-bottom: 4%;
+}
+
+paragraph {
+    margin-top: 2%;
+}
+
+.pressImageLogo {
+    margin: 0px auto;
+    
+    margin-bottom: 2%;
+    
+    max-width: 100%;
+}
+
+.storeButton {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(76, 76, 76, 0.4);
+    
+    background-color: rgba(16, 16, 16, 0.4);
+    
+    padding: 10px;
+    
+    width: auto;
+}
+
+.storeText {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.ribbon {
+    background-color: red;
+    overflow: hidden;
+    white-space: nowrap;
+    
+    position: absolute;
+    right: -200px;
+    top: 33px;
+    -webkit-transform: rotate(45deg);
+    
+    background-color: rgba(16, 32, 16, 0.4);
+}
+
+.ribbon a {
+    color: #fff;
+    display: block;
+    margin 10px 0;
+    padding 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    font-size: 1.0em;
+    
+    text-shadow: 0px 1px black;
+    
+    -webkit-animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: white; text-shadow: 0px 1px black; }
+    75% { color: #72b400; text-shadow: 0px 1px #1c2a00; }
+    100% { color: white; text-shadow: 0px 1px black; }
+}
+
+@media screen and (max-width: 752px)
+{
+    .navBar {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .navBar li {
+        display: none;
+        float: left;
+    }
+    
+    .navBar li {
+        border: 0px solid white;
+    }
+    
+    .active {
+        display: inline-block !important;
+    }
+    
+    .navBar li a {
+        display: inline-block !important;
+        height: 5%;
+        min-height: 44px;
+    }
+    
+    .navBar .icon {
+        display: inline-block;
+        float: right;
+    }
+    
+    .navBar.responsive {
+    }
+    
+    .navBar.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .navBar.responsive li {
+        float: none;
+        display: inline;
+    }
+    
+    .navBar.responsive li a {
+        display: block !important;
+        text-align: left;
+    }
+    
+    .navBar.responsive li.active {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    .socialContainer {
+        margin-left: 2%;
+        
+        width: 90%;
+    }
+    
+    .headerLogo {
+        display: block;
+        margin: 0px auto;
+        width: 425px;
+    }
+    
+    .headerDescription {
+        text-align: center;
+        
+        margin: 0px auto;
+        margin-top: 2%;
+        
+        width: 100%;
+    }
+    
+    .headerKeyArt {
+        display: block;
+        position: relative;
+        
+        margin: 0px auto;
+        margin-top: 2%;
+        
+        height: 25%;
+    }
+    
+    .greenlitImage {
+        display: none;
+    }
+    
+    .screenshotImage {
+        width: 100%;
+        
+        margin-top: 2%;
+    }
+    
+    .button {
+        width: 90%;
+        
+        font-size: 0.85em;
+    }
+}
