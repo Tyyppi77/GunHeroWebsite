@@ -9,9 +9,10 @@ body {
     margin: 0px;
     padding: 0px;
     
-    background: url("Resource/PrisonParallax.png") bottom left no-repeat fixed #07aaff;
+    background: url("Resource/PrisonParallax.png") top left no-repeat fixed #e14b00;
     background-color: #e14b00;
     background-repeat: repeat-x;
+    background-size: cover;
 }
 
 h1 {
